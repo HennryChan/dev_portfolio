@@ -1,0 +1,13 @@
+:root {
+    --primary:#0097A7;
+    --segundary: #ffffff;
+}
+
+/* Propiedates globales */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
