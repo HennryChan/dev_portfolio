@@ -1,13 +1,87 @@
 :root {
-    --primary:#0097A7;
-    --segundary: #ffffff;
+    --main-color       : #52A5E0;
+    --title-color      : #EFF3F5;
+    --text-color       : #C8CDD0;
+    --light-text-color : #A0A7AC;
+    --border-color     : #2A3B47;
+    --container-color  : #212E36;
+    /* --body-color       : #192229; */
+    --body-color : #000000;
 }
 
 /* Propiedates globales */
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
     font-size: 16px;
+    background-color: var(--body-color); 
 }
+
+.color-text-primary {
+    color: var(--title-color);
+}
+
+.text-aling-center {
+    text-align: center;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Navegación principal*/
+.navegation-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation-main-alieng-center {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.navegation-main-menu a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: var(--title-color);
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-right: 35rem;
+}
+
+.container-mian-description {
+    padding: 5rem;
+    width: 55rem;
+    height: auto;
+}
+
+.container-mian-description h1 {
+    font-size: 6rem;
+}
+
+.container-mian-description p {
+    font-size: 3rem;
+}
+
+.container-main-image {
+    width: 79rem;
+    height: 60rem;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), #000000),
+    url(../img/IMG_20240610_110409.jpg);
+    background-size: cover; 
+    background-position: center; 
+    margin: 4rem;
+}
+
