@@ -85,6 +85,11 @@ body {
     padding-right: 35rem;
 }
 
+.container-size {
+    padding-left: 35rem;
+    padding-right: 35rem;
+}
+
 .container-mian-description {
     padding: 5rem;
     width: 55rem;
@@ -100,19 +105,64 @@ body {
 }
 
 .container-main-image {
-    width: 79rem;
-    height: 60rem;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), #000000),
-    url(../img/foto-dev.jpg);
+    width: 35rem;
+    height: 50rem;
+    background: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.5)),
+    url(../img/foto-dev.png);
     background-size: cover; 
     background-position: center; 
     margin: 4rem;
+    border-radius: 20%;
 }
 
 
-/*    */
-.descrition-about-my {
-    
+/* Diseño de las cartas del portafolio */
+.card-flex {
+    display: flex;
+    flex-direction: row;
 }
 
+.card {
+    background-color: #192229;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    width: 36rem;
+    height: auto;
+    margin: 1rem;
+}
 
+.card-img{
+    height: auto;
+    width: 34rem;
+    border-radius: 5%;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 0.5rem;
+}
+
+.card-button {
+    display: inline-block;
+    align-content: center;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: var(--container-color);
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: var(--border-color)
+}
