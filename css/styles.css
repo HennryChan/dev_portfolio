@@ -28,6 +28,14 @@ body {
     text-align: center;
 }
 
+.text-size-title {
+    font-size: 4rem;
+}
+
+.text-size-description {
+    font-size: 2rem;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -42,6 +50,22 @@ body {
 .navegation-main-alieng-center {
     padding-top: 2rem;
     padding-bottom: 5rem;
+}
+
+.image-foto-dev {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.boton-accessibility {
+
+    padding: 0.5rem;
+}
+
+.name-dev {
+    padding: 1rem;
 }
 
 .navegation-main-menu a {
@@ -79,9 +103,16 @@ body {
     width: 79rem;
     height: 60rem;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.5), #000000),
-    url(../img/IMG_20240610_110409.jpg);
+    url(../img/foto-dev.jpg);
     background-size: cover; 
     background-position: center; 
     margin: 4rem;
 }
+
+
+/*    */
+.descrition-about-my {
+    
+}
+
 
