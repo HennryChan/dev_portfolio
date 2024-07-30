@@ -15,6 +15,10 @@ html {
     box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-size: 16px;
     background-color: var(--body-color); 
@@ -40,8 +44,18 @@ body {
     font-size: 2rem;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+
+/* Tipografia */
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
 }
 
 .padding-1 {
@@ -217,3 +231,70 @@ body {
     display: flex;
     justify-content: center;
 }
+
+ @media (max-width: 768px) {
+
+    body {
+        text-align: center;
+    }
+    .navegation-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        align-content: center;
+    }
+
+    .container-mian-description {
+        padding: 1rem;
+        text-align: center;
+        width: auto;
+    }
+
+    .container-mian-description h1 {
+        font-size: 6rem;
+    }
+    
+    .container-mian-description p {
+        font-size: 3rem;
+    }
+    
+    .container-size {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+    .skill-grid {
+        display: grid;
+        grid-template-columns: 100% ;
+        column-gap: 0.1rem;
+        justify-items: center;
+    }
+
+    .card {
+        background-color: #192229;
+        border-radius: 1rem;
+        overflow: hidden;
+        padding: 1rem;
+        width: auto;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
