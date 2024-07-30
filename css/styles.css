@@ -28,6 +28,10 @@ body {
     text-align: center;
 }
 
+.text-bolt {
+    font-weight: bold;
+}
+
 .text-size-title {
     font-size: 4rem;
 }
@@ -39,6 +43,11 @@ body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.padding-1 {
+    padding: 1rem;
+}
+
 
 /* Navegación principal*/
 .navegation-main {
@@ -115,6 +124,22 @@ body {
     border-radius: 20%;
 }
 
+/* Diseño de card de experiancia laboral */
+.card-experience {
+    background-color: #192229;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.card-img-experience {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+}
+
 
 /* Diseño de las cartas del portafolio */
 .card-flex {
@@ -127,14 +152,13 @@ body {
     border-radius: 1rem;
     overflow: hidden;
     padding: 1rem;
-    width: 36rem;
     height: auto;
     margin: 1rem;
 }
 
-.card-img{
+.card-img {
     height: auto;
-    width: 34rem;
+    max-width: 36rem;
     border-radius: 5%;
 }
 
@@ -165,4 +189,10 @@ body {
 
 .card-button:hover {
     background-color: var(--border-color)
+}
+
+/* Estilos contacto */
+.social-networks-flex {
+    display: flex;
+    justify-content: center;
 }
