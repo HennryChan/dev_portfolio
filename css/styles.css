@@ -21,6 +21,7 @@ html {
 
 body {
     font-size: 16px;
+    font-family: 'krub', sans-serif;
     background-color: var(--body-color); 
 }
 
