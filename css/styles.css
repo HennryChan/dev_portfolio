@@ -5,7 +5,7 @@
     --light-text-color : #A0A7AC;
     --border-color     : #2A3B47;
     --container-color  : #212E36;
-    /* --body-color       : #192229; */
+    --color-hover       : #192229;
     --body-color : #000000;
 }
 
@@ -79,6 +79,12 @@ h3 {
     align-items: center;
 }
 
+.navegation-main-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navegation-main-alieng-center {
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -100,6 +106,16 @@ h3 {
     padding: 1rem;
 }
 
+.menu-movil {
+    display: none;
+}
+
+.navegation-main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navegation-main-menu a {
     display: block;
     text-align: center;
@@ -108,6 +124,10 @@ h3 {
     font-weight: bold;
     padding: 1rem;
     color: var(--title-color);
+}
+
+.navegation-main-menu a:hover {
+    border-bottom: solid var(--title-color);
 }
 
 .container {
@@ -239,18 +259,18 @@ h3 {
     }
 
     .navegation-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        padding: 0.5rem;
     }
 
-    .navegation-main-alieng-center {
-        padding-top: 0rem;
-        padding-bottom: 0rem;
+    .toolbar-menu {
+        display: none;
     }
 
-    .container-main {
+    .menu-movil {
+        display: none;
+    }
+
+    .container-main {       
         display: flex;
         flex-direction: column;
         justify-content: center;
