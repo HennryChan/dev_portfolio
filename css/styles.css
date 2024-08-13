@@ -5,7 +5,7 @@
     --light-text-color : #A0A7AC;
     --border-color     : #2A3B47;
     --container-color  : #212E36;
-    /* --body-color       : #192229; */
+    --color-hover       : #192229;
     --body-color : #000000;
 }
 
@@ -21,6 +21,7 @@ html {
 
 body {
     font-size: 16px;
+    font-family: 'krub', sans-serif;
     background-color: var(--body-color); 
 }
 
@@ -78,6 +79,12 @@ h3 {
     align-items: center;
 }
 
+.navegation-main-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navegation-main-alieng-center {
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -99,6 +106,16 @@ h3 {
     padding: 1rem;
 }
 
+.menu-movil {
+    display: none;
+}
+
+.navegation-main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navegation-main-menu a {
     display: block;
     text-align: center;
@@ -109,16 +126,18 @@ h3 {
     color: var(--title-color);
 }
 
+.navegation-main-menu a:hover {
+    border-bottom: solid var(--title-color);
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 .container-main {
     display: flex;
     justify-content: center;
-    padding-left: 35rem;
-    padding-right: 35rem;
-}
-
-.container-size {
-    padding-left: 35rem;
-    padding-right: 35rem;
 }
 
 .container-mian-description {
@@ -135,7 +154,7 @@ h3 {
     font-size: 3rem;
 }
 
-.container-main-image {
+.image-dev {
     width: 35rem;
     height: 50rem;
     background: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.5)),
@@ -193,6 +212,7 @@ h3 {
 
 .card-img {
     height: auto;
+    width: auto;
     max-width: 36rem;
     border-radius: 5%;
 }
@@ -237,24 +257,28 @@ h3 {
     body {
         text-align: center;
     }
+
     .navegation-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 0.5rem;
     }
 
-    .container-main {
+    .toolbar-menu {
+        display: none;
+    }
+
+    .menu-movil {
+        display: none;
+    }
+
+    .container-main {       
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 0rem;
-        padding-right: 0rem;
         align-content: center;
     }
 
     .container-mian-description {
         padding: 1rem;
-        text-align: center;
         width: auto;
     }
 
@@ -265,13 +289,6 @@ h3 {
     .container-mian-description p {
         font-size: 3rem;
     }
-    
-    .container-size {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-
 
     .skill-grid {
         display: grid;
