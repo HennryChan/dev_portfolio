@@ -1,0 +1,51 @@
+{
+  "generic": {
+    "work-station": "Software Engineer",
+    "btn-visid": "Visit site"
+  },
+  "head": {
+    "title": "Hennry Chan - Software Engineer"
+  },
+  "header": {
+    "toolbar-about-my": "About my",
+    "toolbar-skills": "Technical skills",
+    "toolbar-experience": "Work experience",
+    "toolbar-portfolio": "My proyects",
+    "toolbar-contact": "Contact me"
+  },
+  "presentation": {
+    "title": "Software Engineer",
+    "description": "Hello! I'm a full stack developer with experience in various development technologies. I'm passionate about creating innovative and efficient solutions, and I'm always looking for new challenges to improve my skills. Welcome to my portfolio!"
+  },
+  "about-my": {
+    "title": "About my",
+    "description": "I am a Computer Systems Engineer with a specialty in Software Engineering. I am a proactive person, an excellent teammate, organized and responsible. I really enjoy learning new subjects, I am enthusiastic about programming and I am looking for new challenges."
+  },
+  "skills": {
+    "title": "Technical skills"
+  },
+  "experience": {
+    "company-1": "Grupo Blue Ocean - Mayasoft México",
+    "time-1": "Oct. 2023 - Jun. 2024 · 9 months",
+    "description-1": "Full Stack Developer in the Quintana Roo Tourism Information System (SITUR-Q) and the State Tourism Registration System of Quintana Roo (RETUR-Q), I was involved from start to finish.",
+    "company-2": "Grupo Blue Ocean",
+    "time-2": "Feb. 2022 - Sep. 2023 · 1 year 8 months",
+    "description-option1-2": "- Full Stack Developer in the Comprehensive Electronic Kiosk System of the Government of the State of Chiapas",
+    "description-option2-2": "- Student internship"
+  },
+  "portfolio-card-1": {
+    "title": "Tourism Information System of Quintana Roo",
+    "description": "It is a digital platform, operated by the Ministry of Tourism, which collects, processes, organizes and makes available to the public domain quantitative and qualitative information related to the different components involved in the tourist activity of the Mexican Caribbean."
+  },
+  "portfolio-card-2": {
+    "title": "Electronic Kiosks of Chiapas",
+    "description": "Electronic Kiosks feature the eGob® Procedures and Services Management and Collection solution, which allows the Government to offer its citizens the management and payment of all procedures and services from anywhere in an easy, fast, secure and hassle-free manner."
+  },
+  "portfolio-card-3": {
+    "title": "State Registry of Tourism of Quintana Roo",
+    "description": "It is the public catalog of tourist service providers in the Mexican Caribbean, through which general information will be available on any individual or legal entity that sells a tourist product or service, in order to provide greater security and confidence to tourists and visitors of the State."
+  },
+  "footer": {
+    "title": "Make by: Hennry Chan"
+  }
+}

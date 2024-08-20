@@ -77,6 +77,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 4rem;
 }
 
 .navegation-main-name {
@@ -89,6 +90,60 @@ h3 {
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
+
+/* Opciones de idiomas - open */
+.translate {
+    display: flex;
+justify-content: center;    
+}
+
+.lenguage {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.lenguage:hover {
+    border-bottom: solid rgb(228, 228, 228);
+}
+
+/* Lista de idiomas */
+.lenguages {
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.lenguages li {
+    width: 100%;
+}
+
+.lenguages li a {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+}
+
+.lenguages li a:hover {
+    border-bottom: solid rgb(219, 219, 219);
+}
+
+.lenguages li img {
+    /* border-radius: 50%; */
+    height: 4rem;
+    width: auto;
+}
+
+/* toogle - js */
+.toggle {
+    visibility: visible;
+}
+/*Opciones de idiomas - end */
 
 .image-foto-dev {
     height: 4rem;
