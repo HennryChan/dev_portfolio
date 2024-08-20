@@ -18,7 +18,7 @@ langButtons.forEach((button) => {
         listLanguage.classList.toggle('toggle');        
         
         //Realiza el reoorrido y remplaza el idioma
-        fetch(`../languages/${button.dataset.language}.json`)
+        fetch(`languages/${button.dataset.language}.json`)
             .then(res => res.json())
             .then(data => {
                 textsToChange.forEach((el) => {
