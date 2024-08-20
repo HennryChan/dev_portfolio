@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hennry Chan - Ingeniero en Software</title>
+    <title data-section="head" data-value="title">Hennry Chan - Ingeniero de Software</title>
     <link rel="preload" href="css/normalize.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,29 +42,30 @@
             </div>
             <div class="toolbar-menu">
                 <nav class="navegation-main-menu">
-                    <a href="#about-my">Sobre mí</a>
-                    <a href="#my-skills">Habilidades Tecnicas</a>
-                    <a href="#experience">Experiencia Laboral</a>
-                    <a href="#portfolio">Portafolio</a>
-                    <a href="#contact">Contacto</a>
+                    <a href="#about-my" data-section="header" data-value="toolbar-about-my">Sobre mí</a>
+                    <a href="#my-skills" data-section="header" data-value="toolbar-skills">Habilidades Tecnicas</a>
+                    <a href="#experience" data-section="header" data-value="toolbar-experience">Experiencia Laboral</a>
+                    <a href="#portfolio" data-section="header" data-value="toolbar-portfolio">Portafolio</a>
+                    <a href="#contact" data-section="header" data-value="toolbar-contact">Contacto</a>
                 </nav>
             </div>
 
-            <div class="text-aling-center">
-                <nav class="navegation-main ">
-                    <a href="#" class="boton-accessibility">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="32"
-                            height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 5h7" />
-                            <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-                            <path d="M5 9c0 2.144 2.952 3.908 6.7 4" />
-                            <path d="M12 20l4 -9l4 9" />
-                            <path d="M19.1 18h-6.2" />
-                        </svg>
-                    </a>
-                </nav>
+            <div class="translate">
+                <a href="#" id="lenguage" class="lenguage">
+                  <img src="/img/icons/LucideLanguages.svg" alt="logo">
+                </a>
+                <ul id="lenguages" class="lenguages">
+                  <li class="opcion">
+                    <button data-language="en">
+                        <img src="/img/lenguajes/FlagpackUs.svg" alt="Icono bandera ingles">
+                    </button>
+                  </li>
+                  <li class="opcion">
+                    <button data-language="es">
+                        <img src="/img/lenguajes/FlagMx.svg" alt="Icono bandera español">
+                    </button>
+                  </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -72,8 +73,8 @@
     <section class="container">
         <div class="container-main">
             <div class="container-mian-description">
-                <h1 class="color-text-primary">Ingeniero en Software</h3>
-                    <p class="color-text-primary">
+                <h1 class="color-text-primary" data-section="presentation" data-value="title">Ingeniero de Software</h1>
+                    <p class="color-text-primary" data-section="presentation" data-value="description">
                         ¡Hola! Soy desarrollador full stack con experiencia en diversas tecnologías de desarrollo. Me apasiona crear soluciones innovadoras y eficientes, y siempre estoy buscando nuevos desafíos para mejorar mis habilidades. ¡Bienvenido a mi portafolio!
                     </p>
             </div>
@@ -88,8 +89,8 @@
         <section>
             <div class="container-main">
                 <div id="about-my">
-                    <h1 class="color-text-primary text-size-title">Sobre mí</h1>
-                    <p class="color-text-primary text-size-description">
+                    <h1 class="color-text-primary text-size-title" data-section="about-my" data-value="title">Sobre mí</h1>
+                    <p class="color-text-primary text-size-description" data-section="about-my" data-value="description">
                         Soy Ingeniero en Sistemas Computaciones con la especialidad en Ingeniería en Software, Soy una persona proactiva, 
                         excelente compañero de equipo, organizado y responsable. Disfruto mucho aprender nuevos temas, soy un entusiasta en la programación y estoy en busqueda de nuevos desafios.
                     </p>
@@ -98,7 +99,7 @@
 
             <div>
                 <div id="my-skills">
-                    <h1 class="color-text-primary ">Habilidades tecnicas</h1>
+                    <h1 class="color-text-primary" data-section="skills" data-value="title">Habilidades tecnicas</h1>
                     <div class="skill-grid">
                         <div class="skill-flex">
                             <div>
@@ -319,18 +320,18 @@
             </div>
 
             <div id="experience">
-                <h1 class="color-text-primary text-size-title">Experiencia Laboral</h1>
+                <h1 class="color-text-primary text-size-title" data-section="header" data-value="toolbar-experience">Experiencia Laboral</h1>
                 <div>
                     <div class="color-text-primary card-experience">
-                        <h2>Ingeniero de Software</h2>
+                        <h2 data-section="generic" data-value="work-station">Ingeniero de Software</h2>
                         <div class="card-flex">
                             <div class="padding-1">
-                                <img class="card-img-experience" src="img/mayansof-logo.jpeg" alt="">
+                                <img class="card-img-experience" src="img/mayansof-logo.jpeg" alt="Logo de la empresa mayansoft">
                             </div>
                             <div>
-                                <p><span class="text-bolt">Grupo Blue Ocean - Mayasoft México</span><br>Oct. 2023 - Jun. 2024 · 9 meses
+                                <p><span class="text-bolt" data-section="experience" data-value="company-1">Grupo Blue Ocean - Mayasoft México</span><br><span data-section="experience" data-value="time-1">Oct. 2023 - Jun. 2024 · 9 meses</span> 
                                 </p>
-                                <p>Desarollador Full Stack en el Sistema de Información Turística de Quintana Roo
+                                <p data-section="experience" data-value="description-1">Desarollador Full Stack en el Sistema de Información Turística de Quintana Roo
                                     (SITUR-Q) y el Sistema de Registro Estatal de Turismo de Quientana Roo (RETUR-Q),
                                     tuve participación de inicio a fin.</p>
                             </div>
@@ -339,17 +340,17 @@
                 </div>
                 <div>
                     <div class="color-text-primary card-experience">
-                        <h2>Ingeniero de Software</h2>
+                        <h2 data-section="generic" data-value="work-station">Ingeniero de Software</h2>
                         <div class="card-flex">
                             <div class="padding-1">
                                 <img class="card-img-experience" src="img/grupoblueocean_logo.jpeg" alt="">
                             </div>
                             <div>
-                                <p><span class="text-bolt">Grupo Blue Ocean</span><br>Feb. 2022 - Sep. 2023 · 1 año 8 meses
+                                <p><span class="text-bolt" data-section="experience" data-value="company-2">Grupo Blue Ocean</span><br><span data-section="experience" data-value="time-2">Feb. 2022 - Sep. 2023 · 1 año 8 meses</span>
                                 </p>
                                 <p>
-                                    <span>- Desarrollador Full Stack en el Sistema Integral de Kioscos Electrónicos del Gobierno del Estado de Chiapas</span><br>
-                                    <span>- Student internship </span>
+                                    <span data-section="experience" data-value="description-option1-2">- Desarrollador Full Stack en el Sistema Integral de Kioscos Electrónicos del Gobierno del Estado de Chiapas</span><br>
+                                    <span data-section="experience" data-value="description-option2-2">- Student internship</span>
                                 </p>
                             </div>
                         </div>
@@ -358,45 +359,45 @@
             </div>
 
             <div id="portfolio" >
-                <h1 class="color-text-primary text-size-title">Portafolio</h1>
+                <h1 class="color-text-primary text-size-title" data-section="header" data-value="toolbar-portfolio">Portafolio</h1>
                 <div class="card-flex">
                     <div class="color-text-primary card">
                         <img class="card-img" src="img/Siturq.png" alt="">
                         <div class="card-body">
-                            <h2 class="card-title">Sistema de Información Turística de Quintana Roo</h2>
-                            <p class="card-descripcion">
+                            <h2 class="card-title" data-section="portfolio-card-1" data-value="title">Sistema de Información Turística de Quintana Roo</h2>
+                            <p class="card-descripcion" data-section="portfolio-card-1" data-value="description">
                                 Es una plataforma digital, operada por la Secretaría de Turismo, que recolecta, trata, ordena y 
                                 pone a disposición del dominio público información cuantitativa y cualitativa relativa a los diferentes 
                                 componentes que intervienen en la actividad turística del Caribe Mexicano.
                             </p>
-                            <a href="https://siturq.gob.mx/" class="card-button" target="_blank">Visitar sitio</a>
+                            <a href="https://siturq.gob.mx/" class="card-button" target="_blank" data-section="generic" data-value="btn-visid">Visitar sitio</a>
                         </div>
                     </div>
                     <div class="color-text-primary card">
                         <img class="card-img" src="img/kioscos.png" alt="">
                         <div class="card-body">
-                            <h2 class="card-title">Kioscos Electrónicos de Chiapas</h2>
-                            <p class="card-descripcion">
+                            <h2 class="card-title" data-section="portfolio-card-2" data-value="title">Kioscos Electrónicos de Chiapas</h2>
+                            <p class="card-descripcion" data-section="portfolio-card-2" data-value="description">
                                 Los Kioscos Electrónicos cuentan con la solución Gestión y Recaudación de Trámites y Servicios de eGob®, la cual permite al Gobierno ofrecer a sus ciudadanos la gestión y el pago de todos los trámites y servicios desde cualquier lugar de manera fácil, rápida, segura y sin vueltas. 
                             </p>
-                            <a href="https://egob.com/chiapas-moderniza-su-recaudacion-con-kioscos-electronicos/" class="card-button" target="_blank">Visitar sitio</a>
+                            <a href="https://egob.com/chiapas-moderniza-su-recaudacion-con-kioscos-electronicos/" class="card-button" target="_blank" data-section="generic" data-value="btn-visid">Visitar sitio</a>
                         </div>
                     </div>
                     <div class="color-text-primary card">
                         <img class="card-img" src="img/returq.png" alt="">
                         <div class="card-body">
-                            <h2 class="card-title">Registro Estatal de Turística de Quintana Roo</h2>
-                            <p class="card-descripcion">
+                            <h2 class="card-title" data-section="portfolio-card-3" data-value="title">Registro Estatal de Turística de Quintana Roo</h2>
+                            <p class="card-descripcion" data-section="portfolio-card-3" data-value="description">
                                 Es el catálogo público de prestadores de servicios turísticos del Caribe Mexicano, a través del cual se dispondrá de información general, de toda aquella persona física o moral que comercialice algún producto o servicio turístico, con el fin de brindar mayor seguridad y confianza, a los turistas y visitantes del Estado.
                             </p>
-                            <a href="https://returq.siturq.gob.mx/login" class="card-button" target="_blank">Visitar sitio</a>
+                            <a href="https://returq.siturq.gob.mx/login" class="card-button" target="_blank" data-section="generic" data-value="btn-visid">Visitar sitio</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="contact">
-                <h1 class="color-text-primary text-size-title text-aling-center">Contacto</h1>
+                <h1 class="color-text-primary text-size-title text-aling-center" data-section="header" data-value="toolbar-contact">Contacto</h1>
                 <div class=" social-networks-flex">
                     <div>
                         <a href="https://www.linkedin.com/in/hennry-chan/" target="_blank">
@@ -441,8 +442,9 @@
     </main>
 
     <footer>
-        <p class="color-text-primary text-aling-center">Portafolio realizado por: Hennry Chan</p>
+        <p class="color-text-primary text-aling-center" data-section="footer" data-value="title">Portafolio realizado por: Hennry Chan</p>
     </footer>
+    <script src="/js/languages.js"></script>
 </body>
 
 </html>
