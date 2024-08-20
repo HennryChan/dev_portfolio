@@ -6,6 +6,7 @@
     --border-color     : #2A3B47;
     --container-color  : #212E36;
     --color-hover       : #192229;
+    --hover-border-hover : #EFF3F5;
     --body-color : #000000;
 }
 
@@ -97,13 +98,17 @@ h3 {
     justify-content: center;    
 }
 
+.translate ul {
+    list-style-type: none;
+}
+
 .lenguage {
     display: flex;
     position: relative;
 }
 
 .translate a img:hover {
-    border-bottom: solid rgb(228, 228, 228);
+    border-bottom: solid var(--hover-border-hover);
 }
 
 /* Lista de idiomas */
@@ -114,8 +119,8 @@ h3 {
     position: absolute;
     top: 7rem;
     gap: 0.5rem;
-    padding-left: 1rem;
-}
+    padding-left: 0rem;
+}   
 
 .lenguages li button {
     display: block;
@@ -124,7 +129,7 @@ h3 {
 }
 
 .lenguages li button:hover {
-    border-bottom: solid 0.2rem rgb(219, 219, 219);
+    border-bottom: solid 0.2rem var(--hover-border-hover);
 }
 
 .lenguages li img {
@@ -175,7 +180,7 @@ h3 {
 }
 
 .navegation-main-menu a:hover {
-    border-bottom: solid var(--title-color);
+    border-bottom: solid var(--hover-border-hover);
 }
 
 .container {
